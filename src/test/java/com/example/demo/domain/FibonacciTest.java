@@ -9,6 +9,7 @@ public class FibonacciTest {
   @Test
   public void should_return_1_when_input_1() throws Exception {
     int result = Fibonacci.getResult(1);
+    
     assertEquals(1, result);
   }
 
