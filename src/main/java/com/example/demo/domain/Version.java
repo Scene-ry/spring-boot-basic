@@ -2,6 +2,10 @@ package com.example.demo.domain;
 
 public class Version {
 
+    private Version() {
+        throw new IllegalStateException("Utility class");
+    }
+
     private static int major = 1;
     private static int minor = 0;
     private static int patch = 0;
